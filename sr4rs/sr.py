@@ -37,7 +37,7 @@ encodings = {"unsigned_char": otbApplication.ImagePixelType_uint8,
              "float": otbApplication.ImagePixelType_float,
              "double": otbApplication.ImagePixelType_double}
 
-DEFAULT_PAD = None
+DEFAULT_PAD = 64
 DEFAULT_ENCODING = "auto"
 DEFAULT_TILE_SIZE = 512
 
