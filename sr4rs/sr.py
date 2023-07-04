@@ -23,7 +23,7 @@ import argparse
 import otbApplication
 import logging
 
-from . import constants
+from sr4rs import constants
 
 logging.basicConfig(format='%(asctime)s %(levelname)-8s %(message)s', level=logging.WARNING,
                     datefmt='%Y-%m-%d %H:%M:%S')
