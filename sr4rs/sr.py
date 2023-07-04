@@ -52,7 +52,6 @@ def get_encoding_name(input):
     return infos.GetParameterString("datatype")
 
 
-# def run(pad, ts, encoding, saved_model, input, output):
 def run(input, output, saved_model, pad=DEFAULT_PAD, ts=DEFAULT_TILE_SIZE, encoding=DEFAULT_ENCODING):
     gen_fcn = pad  # Available shrinked outputs
     efield = ts  # OTBTF expression field
