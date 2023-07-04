@@ -105,7 +105,7 @@ def cli():
                         help="Tile size. Tune this to process larger output image chunks, "
                              "and speed up the process.")
     params = parser.parse_args()
-    run(params.pad, params.ts, params.encoding, params.savedmodel, params.input, params.output)
+    run(params.input, params.output, params.savedmodel, params.pad, params.ts, params.encoding)
 
 
 if __name__ == "__main__":
