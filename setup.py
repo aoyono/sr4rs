@@ -6,9 +6,8 @@ setup(
     url='https://github.com/aoyono/sr4rs',
     packages=find_packages(),
     install_requires=[
-        "tensorflow",
+        "tensorflow>=1.15",
         "numpy",
-        "git+ssh://git@github.com/remicres/otbtf.git#egg=otbtf",
     ],
     entry_points={
         "console_scripts": [
