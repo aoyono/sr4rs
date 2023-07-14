@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sr4rs"
+version = "0.1.0"
+description = ""
+authors = ["Rémi Cresson"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.5"
+tensorflow = ">=1.15"
+numpy = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
