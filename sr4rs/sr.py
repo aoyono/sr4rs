@@ -96,7 +96,7 @@ def cli():
     parser.add_argument("--savedmodel", help="Input SavedModel (provide the path to the folder).", required=True)
     parser.add_argument("--output", help="Output HR image", required=True)
     parser.add_argument('--encoding', type=str, default=DEFAULT_ENCODING, const=DEFAULT_ENCODING, nargs="?",
-                        choices=encodings.keys(),
+                        choices=list(encodings.keys()) + [DEFAULT_ENCODING],
                         help="Output HR image encoding")
     parser.add_argument('--pad', type=int, default=DEFAULT_PAD, const=DEFAULT_PAD, nargs="?",
                         choices=constants.pads,
