@@ -11,6 +11,9 @@ python = ">=3.5"
 tensorflow = ">=1.15"
 numpy = "*"
 
+[tool.poetry.scripts]
+sr4rs-lo2hi = 'sr4rs.sr:cli'
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
